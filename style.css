@@ -1,0 +1,112 @@
+/* ################### */
+/* DEBUT CODE ORIGINEL */
+/* ################### */
+
+#mainbox {
+    font-family: calibri;
+    box-sizing: border-box;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+
+    width: 350px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 3px #888;
+    border-top: 10px solid purple;
+    min-height: 250px;
+    padding: 10px;
+    margin: 40px;
+}
+
+img {
+    width: 70px;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+p {
+    margin: 10px;
+    font-family: segoe ui;
+    line-height: 1.4em;
+    font-size: 1.2em;
+}
+
+/* ################# */
+/* FIN CODE ORIGINEL */
+/* ################# */
+
+/* Time to shine */
+
+/* ################ */
+/* DEBUT CODE EXEMPLE */
+/* ################ */
+
+#Exemple{
+    background-color: rgb(188, 238, 108);
+    border: 1px dotted rgb(6, 58, 36);
+    box-shadow: 1px 1px 3px rgb(37, 196, 58);
+    border-top: 10px solid rgb(6, 141, 119);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(4, 51, 28);
+    line-height: 1.4em;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Exemple h1{
+    padding-right:100px;
+}
+#Exemple img{
+    align-self: center;
+    height: 130px;
+    width: auto;
+    margin: 20px;
+
+}
+
+/* ############## */
+/* FIN DE CODE EXEMPLE */
+/* ############## */
+
+/* ############## */
+/* CODE HAMZA PROMO*/
+/* ############## */
+#Hamza{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 1px black ;
+    width: 400px;
+    margin: 10px;  
+    box-shadow: 4px 4px 3px white;
+}
+#Hamza:hover{
+    box-shadow: 2px 2px 3px rgb(126, 126, 126);
+    transition-duration: 0.5s ;
+}
+#Hamza img{
+    height: auto;
+    width: auto;
+    margin: 20px;
+}
+
+/* ############## */
+/* FIN DE CODE HAMZA */
+/* ############## */
+
+
+
+
